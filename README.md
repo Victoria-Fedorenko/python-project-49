@@ -7,3 +7,5 @@
 [Demonstration of installation and usage of brain-even game](https://asciinema.org/a/2aKPZ09YgmeGM2jsgvX5k0WUV)
 
 [Demonstration of brain-calc game](https://asciinema.org/a/OBCsYRl2sxuYel9dnPm5wX05s)
+
+[Demonstration of brain-gcd game](https://asciinema.org/a/Mh6yMTugj1EEIhLHcPcloN5cv)
