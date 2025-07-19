@@ -16,6 +16,7 @@ build-backend = "hatchling.build"
 packages = ["brain_games"]
 include = [
     "brain_games/**/*.py",
+    "brain_games/games/*.py"
 ]
 
 [dependency-groups]
