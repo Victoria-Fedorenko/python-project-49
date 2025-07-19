@@ -1,5 +1,5 @@
+
 import prompt
-import random
 
 
 def say_hi_and_get_name():
@@ -9,14 +9,16 @@ def say_hi_and_get_name():
     print(f'Hello, {name}!')
     return name
 
+
 def check_answer(name, function):
 
     your_number, correct_answer = function()
     print(f'Question: {your_number}')
-    your_answer = prompt.string(f'Your answer: ')
+    your_answer = prompt.string('Your answer: ')
     if your_answer == correct_answer:
         return True, your_answer, correct_answer
     return False, your_answer, correct_answer
+
 
 def game_cycle(check_answer, name, function):
 

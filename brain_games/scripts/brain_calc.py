@@ -1,6 +1,6 @@
-import prompt
 import random
-from brain_games.functions import say_hi_and_get_name, check_answer, game_cycle
+
+from brain_games.functions import check_answer, game_cycle, say_hi_and_get_name
 
 
 def get_expression_and_correct_answer():
@@ -18,6 +18,7 @@ def get_expression_and_correct_answer():
         correct_answer = number_1 * number_2
     return str_expression, str(correct_answer)
 
+
 def calc_game():
 
     name = say_hi_and_get_name()
@@ -25,10 +26,10 @@ def calc_game():
     game_cycle(check_answer, name, get_expression_and_correct_answer)
 
 
-
 def main():
 
     calc_game()
+
 
 if __name__ == "__main__":
     

@@ -1,6 +1,6 @@
-import prompt
 import random
-from brain_games.functions import say_hi_and_get_name, check_answer, game_cycle
+
+from brain_games.functions import check_answer, game_cycle, say_hi_and_get_name
 
 
 def get_random_number_and_correct_answer():
@@ -23,6 +23,7 @@ def even_game():
 def main():
 
     even_game()
+
 
 if __name__ == "__main__":
     

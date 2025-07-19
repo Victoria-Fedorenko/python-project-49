@@ -1,5 +1,7 @@
 import random
-from brain_games.functions import say_hi_and_get_name, check_answer, game_cycle
+
+from brain_games.functions import check_answer, game_cycle, say_hi_and_get_name
+
 
 def get_progression_and_correct_answer():
     first_num = random.randint(0, 100)
@@ -9,7 +11,7 @@ def get_progression_and_correct_answer():
     for i in range(10):
         new_elem = correct_list[-1] + step
         correct_list.append(new_elem)
-    index_to_get_rid_of = random.randint(0,9)
+    index_to_get_rid_of = random.randint(0, 9)
     correct_answer = correct_list[index_to_get_rid_of]
     question_list = []
     for i in correct_list:
@@ -18,6 +20,7 @@ def get_progression_and_correct_answer():
     question_list[index_to_get_rid_of] = '..'
     question = ' '.join(question_list)
     return question, str(correct_answer)
+
 
 def progression_game():
 
@@ -29,6 +32,7 @@ def progression_game():
 def main():
 
     progression_game()
+
 
 if __name__ == "__main__":
     

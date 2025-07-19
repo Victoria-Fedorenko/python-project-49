@@ -1,6 +1,6 @@
-import prompt
 import random
-from brain_games.functions import say_hi_and_get_name, check_answer, game_cycle
+
+from brain_games.functions import check_answer, game_cycle, say_hi_and_get_name
 
 
 def get_random_numbers_and_correct_gcd():
@@ -13,7 +13,7 @@ def get_random_numbers_and_correct_gcd():
         correct_answer = a
     else:
         while b > 0: 
-            o = a%b
+            o = a % b
             a = b
             b = o
         correct_answer = a
@@ -30,6 +30,7 @@ def gcd_game():
 def main():
 
     gcd_game()
+
 
 if __name__ == "__main__":
     
