@@ -1,7 +1,7 @@
 import random
 
 
-def get_expression_and_correct_answer(): #  for brain_calc.py
+def get_expression_and_correct_answer():
 
     operations_list = ['+', '-', '*']
     number_1 = random.randint(0, 100)
