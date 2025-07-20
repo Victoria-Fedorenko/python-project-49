@@ -1,7 +1,7 @@
 import random
 
 
-def get_progression_and_correct_answer():
+def get_progression_and_answer():
     first_num = random.randint(0, 100)
     step = random.randint(1, 10)
     correct_list = []
